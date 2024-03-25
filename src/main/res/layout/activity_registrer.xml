@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Registrate"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:text="Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+    <EditText
+        android:id="@+id/mailRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:layout_marginBottom="20dp">
+
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/Mail">
+
+    </TextView>
+
+
+
+
+    <EditText
+        android:id="@+id/userRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:text="@string/Contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <EditText
+        android:id="@+id/passRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:text="Repetir contraseña"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        />
+    <EditText
+        android:id="@+id/reppass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btnRegistrar2"
+        android:text="Registrarse"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

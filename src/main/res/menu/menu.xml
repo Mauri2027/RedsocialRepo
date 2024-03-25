@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menuagregar"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="agregar"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menucompartir"
+        android:icon="@drawable/compartir"
+        android:title="@string/compartir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menubuscar"
+        android:icon="@drawable/buscar"
+        android:title="@string/bucar"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menumomento"
+        android:title="@string/momento" />
+    <item
+        android:title="@string/idioma"
+        android:id="@+id/menuidioma"/>
+    <item
+        android:title="@string/ayuda"
+        android:id="@+id/menuayuda"/>
+
+
+
+</menu>

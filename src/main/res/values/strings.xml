@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">fotomomentos</string>
+    <string name="ingreso">Ingreso</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Registrar">Registrar</string>
+    <string name="ingreseNombre">ingrese nombre</string>
+    <string name="ingreseMail">ingrese mail</string>
+    <string name="Mail">Mail</string>
+    <string name="Contraseña">Password</string>
+    <string name="ingreseContraseña">ingrese contraseña</string>
+    <string name="Ingresar">Ingresar</string>
+    <string name="home">Home</string>
+    <string name="nueva_imagen">Nueva imagen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home2">Home2</string>
+    <string name="title_activity_nuevo_home">nuevoHome</string>
+    <string name="idioma">Idioma</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="momento">Momento</string>
+    <string name="bucar">bucar</string>
+    <string name="compartir">compartir</string>
+    <string name="descripcion">descripcion</string>
+
+    <string name="descripcioncompleta1">descripcion completa delmomento1</string>
+</resources>
+
